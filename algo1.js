@@ -10,7 +10,7 @@ console.log(a + "hello")
 
 // Lesson 2 - Predict Loops
 for(var i = 0; i < 10; i++) {
-    // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+    // 
     console.log(i);
 }
 // "outside of the loop 10"
@@ -23,9 +23,9 @@ function getTotal(arrayOfNumbers) {
 
     for(var i = 0; i < arrayOfNumbers.length; i++) {
         sum += arrayOfNumbers[i];
-        // ''the current sum is: 2"
-        // ''the current sum is: 5"
-        // ''the current sum is: 10"
+        // "the current sum is: 2"
+        // "the current sum is: 5"
+        // "the current sum is: 10"
         console.log("the current sum is:" + sum);
     }
     // "the total is: 10"
